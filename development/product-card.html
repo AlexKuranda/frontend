@@ -864,9 +864,9 @@
 				<h2 class="pcard-order__header"><span class="pcard-order-step__title">1 ШАГ. Бронировать товар<span><span class="pcard-order__colon">:</span> <span class="pcard-order-step__state"></span></h2>
 				<div class="pcard-order__content  pcard-order-promo">
 
-					<b>Есть промокод<br>или бонусная карта?</b>
+					<b>Есть промокод или бонусная карта?</b>
 
-					<div class="pcard-order-promo-forms  h-clearfix">
+					<!-- <div class="pcard-order-promo-forms  h-clearfix">
 						<form id="pcard-promo-code-form" action="" class="pcard-promo-code-form">
 							<div class="from-field">
 								<label for="" class="form-label">Введите промокод</label>
@@ -889,16 +889,30 @@
 							<input id="pcard-bonus-card-button" type="submit" class="b-button  pcard-order-promo-submit" value="Ok">
 							<div class="pcard-order-promo-warning">Пожалуйста, введите данные корректно.</div>
 						</form>
-					</div>
-					<div class="pcard-order-promo-total  h-clearfix">
-						<span class="pcard-order-promo-total__text">Итоговая стоимость:</span>
-						<span class="pcard-order-promo-total__before"><b>8999</b><span>руб</span></span>
-						<span class="pcard-order-promo-total__after"><b>399</b><span>руб</span></span>
-					</div>
+					</div> -->
+					<form action="" class="pcard-order-promo-form">
+						<div class="from-field">
+							<div class="form-textline">
+								<input type="text"class="form-textline__default"  maxlength="16" placeholder="есть промокод? введите">
+							</div>
+						</div>
+						<div class="from-field">
+							<div class="form-textline">
+								<input type="text" class="form-textline__default" maxlength="16" placeholder="есть бонусная карта? введите ">
+							</div>
+						</div>
+						<input type="submit" class="b-button b-button--grey pcard-order-promo-form__button" value="Применить">
+						<div class="pcard-order-promo-total  h-clearfix">
+							<span class="pcard-order-promo-total__text">Итоговая стоимость:</span>
+							<span class="pcard-order-promo-total__before"><b>8999</b><span>руб</span></span>
+							<span class="pcard-order-promo-total__after"><b>399</b><span>руб</span></span>
+						</div>
+					</form>
 
 					<cite>Внимание, специальная цена действительна только при бронировании товаров на сайте</cite>
 
 					<div class="b-button  order-button-to-getshop">Перейти к выбору магазина&nbsp;&gt;</div>
+					<small>поля не являются обязательными для заполнения</small>
 				</div>
 			</div>
 

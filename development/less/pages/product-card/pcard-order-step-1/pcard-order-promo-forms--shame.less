@@ -1,63 +1,30 @@
-.pcard-order-promo-forms {
-
-
-	.form-label {
-		display: block;
-
-		text-transform: uppercase;
-		font: 300 14px/25px Circe;
-		color: #666;
+.pcard-order-promo-form {
+	max-width: 575px;
+	width: 100%;
+	margin: 40px auto 0;
+	.from-field{
+		display: inline-block;
+		width: 210px;
+		margin-right: 7px;
 	}
-
 
 	.form-textline {
 		height: 35px;
 
-
 		&--valid {
 
-
-			&:after {
-				position: absolute;
-				top: 5px;
-				right: 5px;
-
-				content: '';
-
-				display: block;
-				width: 23px;
-				height: 22px;
-
-				.primary-sprite-icon__7();
-				background-color: #ed3030;
-			}
-
-
-			&:before {
-				position: absolute;
-				top: 0;
-				right: 0;
-
-				content: '';
-
-				display: block;
-				width: 33px;
-				height: 33px;
-
-				background-color: #ed3030;
-			}
 		}
 	}
 
-
 	.form-textline__default {
-		padding-left: 40px;
-		padding-right: 110px;
+		padding: 0 10px;
+		font-size: 11px;
 	}
 
-
-	.form-textline__icon {
-		width: 35px;
+	&__button{
+		width: 130px;
+		height: 35px;
+		float: right;
 	}
 }
 
